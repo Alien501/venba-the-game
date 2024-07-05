@@ -1,0 +1,16 @@
+.slider-container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: var(--color-rose);
+    border-radius: 5px;
+}
+
+.slider-image {
+    /* aspect-ratio: 4/2; */
+    width: 290px;
+    margin: 5px;
+    border-radius: 10px;
+    display: block;
+    border: 3px solid var(--color-white);
+}

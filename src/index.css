@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'pangolin';
+  src: url('./assets/pangolin.ttf');
+  font-weight: 400;
+}
+
+:root {
+  --color-black: #000;
+  --color-brown: #812713;
+  --color-red: #ea2949;
+  --color-rose: #f23662;
+  --color-sandal-1: #fef1d1;
+  --color-sandal-2: #fff2d5;
+  --color-white: #ffffff;
+  --color-white-1: #00000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'pangolin', sans-serif;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: url('./assets/bg.webp');
+  image-rendering: optimizeQuality;
+  background-repeat: repeat-x repeat-y;
+  background-position: 0 0;
+  background-size: 20%;
+}
+
+/* Lenis */
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}

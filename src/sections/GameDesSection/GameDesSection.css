@@ -1,0 +1,72 @@
+.game-des-container {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 2rem;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: .2rem;
+}
+
+.game-des-container h1 {
+    font-size: 2.2rem;
+    line-height: 2rem;
+    display: block;
+    margin-bottom: 20px;
+    color: var(--color-rose);
+    position: relative;
+}
+
+.game-des-container p {
+    font-size: 1.3rem;
+    color: var(--color-brown);
+    position: relative;
+}
+
+.des-content-container {
+    background-color: var(--color-sandal-1);
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    filter: drop-shadow(5px 5px 10px #0000002f);
+}
+
+.des-content-container.done {
+    background-color: var(--color-rose);
+    background-image: url('../../assets/bg-banner.webp');
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    filter: drop-shadow(5px 5px 10px #0000002f);
+    transition: .3s ease;
+}
+
+.des-content-container.done p {
+    color: #fff;
+}
+
+.des-content-container svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    stroke-width: 2px;
+    stroke: var(--color-rose);
+    border-radius: 10px;
+    stroke-dashoffset: 0 0;
+    stroke-dasharray: 10px 10px;
+}
+
+
+.des-if {
+    display: block;
+    margin: 40px auto 10px auto;
+    height: max-content;
+    width: 100%;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--color-sandal-1);
+}
